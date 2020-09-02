@@ -9,11 +9,11 @@ start_link = 'http://www.aastocks.com/sc/stocks/market/ipo/listedipo.aspx'
 def get_sotcks_info(ds, outfile):
     stocks = ds.find_elements_by_xpath('//*[@id="IPOListed"]/table/tbody/tr')
     for stock in stocks:
-        strtmp = ''
+        items = []
         for element in stock.find_elements_by_xpath('.//td'):
-            strtmp += '\t' + element.text.strip('"').strip()
-        print(strtmp)
-        print(strtmp.strip(), file=outfile)
+            items.extend(str.split(element.text.strip().strip('"'), '\n'))
+        print(items)
+        print('\t'.join(items), file=outfile)
     return 0
 
 
@@ -38,12 +38,8 @@ def crawl_hk_ipo():
         get_sotcks_info(ds, outfile)
 
         try:
-            if cur_page_num == 1:
-                next_page_button = ds.find_element_by_xpath(
-                    '//*[@id="IPOListed"]/table/tfoot/tr[2]/td/div/table/tbody/tr/td[2]/div')
-            else:
-                next_page_button = ds.find_element_by_xpath(
-                    '//*[@id="IPOListed"]/table/tfoot/tr[2]/td/div/table/tbody/tr/td[4]/div')
+
+            next_page_button = ds.find_element_by_class_name("p_last")
             next_page_button.click()
             cur_page_num += 1
         except Exception as e:

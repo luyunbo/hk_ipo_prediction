@@ -104,3 +104,6 @@ ENV/
 
 # pycharm
 .idea
+
+#pyenv
+pyenv
