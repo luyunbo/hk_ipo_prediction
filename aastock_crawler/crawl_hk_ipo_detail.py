@@ -23,6 +23,17 @@ def crawl_hk_ipo_detail():
     # df = pd.read_csv('../data/ipo_list', sep='\t', index_col='code')
     # df.aggregate
     outfile = open('../data/ipo_details', 'w')
+    header = ['date',  # 日期
+              'name',  # 名称
+              'code',  # 代号
+              'sponsor',  # 保荐人
+              'industry', # 行业
+              'gray_market',  # 暗盘变现
+              'chg_on_debut',  # 首日表现
+              'acc_chg' # 累计表现
+              ]
+    print('\t'.join(header), file=outfile)
+
     options = webdriver.ChromeOptions()
     options.add_argument('--no-sandbox')
     options.add_argument('headless')

@@ -11,7 +11,11 @@ def get_sotcks_info(ds, outfile):
     for stock in stocks:
         items = []
         for element in stock.find_elements_by_xpath('.//td'):
-            items.extend(str.split(element.text.strip().strip('"'), '\n'))
+            e = str.split(element.text.strip().strip('"'), '\n')
+            items.extend(e)
+        items.remove('')
+        if '跌穿上市价' in items:
+            items.remove('跌穿上市价')
         print(items)
         print('\t'.join(items), file=outfile)
     return 0
@@ -19,8 +23,20 @@ def get_sotcks_info(ds, outfile):
 
 def crawl_hk_ipo():
     outfile = open('../data/ipo_list', 'w')
-    header = 'date' + '\t' + 'code' + '\t' + 'name' + '\t' + 'category' + '\t' + 'ipo_price' + '\t' + 'buy_ratio' + '\t' + 'one_hand' + '\t' + 'draw_prob' + '\t' + 'firstday_performance' + '\t' + 'now_price' + '\t' + 'total_performance'
-    print(header.encode('utf-8'))
+    header = ['name',  # 名称
+              'code',  # 代号
+              'date',  # 上市日期
+              'lot_size',  # 每手股数
+              'market_cap',  # 上市市值(亿元)
+              'offer_price',  # 招股价
+              'listing_price',  # 上市价
+              'over_sub_rate',  # 超额倍数
+              'applied_lots_for_one_lot',  # 稳中一手
+              'one_lot_success_rate',  # 中签率
+              'last',  # 现价
+              'chg_on_debut', # 首日表现
+              'acc_chg'] #累计表现
+    print('\t'.join(header), file=outfile)
     options = webdriver.ChromeOptions()
     options.add_argument('--no-sandbox')
     options.add_argument('headless')
