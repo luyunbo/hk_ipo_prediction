@@ -1,64 +1,101 @@
-recommender_興業金融融資有限公司 (相關往績)	10
-sales_Merrill Lynch Far East Limited	2
-area_香港及澳门	1
-recommender_國金證券(香港)有限公司 (相關往績)	1
-sales_雅利多證券有限公司	4
-market_type_香港聯合交易所有限公司 (主板)	1
-recommender_瑞士信貸(香港)有限公司 (相關往績)	3
-sales_太陽國際證券有限公司	5
-hk_portion	32
-category_資訊科技器材	3
-recommender_中國平安資本(香港)有限公司 (相關往績)	3
-ipo_price_range_ratio	6
-category_保健品	2
-shares_per_hand	4
-area_東南亞	18
-sales_威靈頓金融有限公司	13
-area_中國	4
-category_其他金融	5
-sales_匯富金融服務有限公司	10
-recommender_交銀國際(亞洲)有限公司 (相關往績)	4
-sales_星展亞洲融資有限公司	1
-total_value_mid	25
-sales_寶威證券有限公司	17
-category_證券	2
-sales_聯合證券有限公司	4
-recommender_東興證券(香港)有限公司 (相關往績)	7
-draw_prob	13
-market_type_香港聯合交易所有限公司(主板)	1
-sales_聯昌證券有限公司	7
-area_澳門	2
-category_藥品	1
-recommender_星展亞洲融資有限公司 (相關往績)	6
-sales_康宏証券投資服務有限公司	4
-category_電訊及網絡器材	7
-stock_type_其他	1
-sales_創陞融資有限公司	7
-area_北美洲	7
-sales_東興證券(香港)有限公司	4
-buy_ratio	52
-recommender_野村國際(香港)有限公司 (相關往績)	4
-market_type_香港聯合交易所有限公司 (創業板)	2
-recommender_創陞融資有限公司 (相關往績)	3
-recommender_新百利融資有限公司 (相關往績)	1
-sales_富強證券有限公司	1
-recommender_力高企業融資有限公司 (相關往績)	2
-sales_創富融資有限公司	3
-sales_萬海證券有限公司	4
-recommender_大唐域高融資有限公司 (相關往績)	4
-category_鐘錶珠寶	7
-sales_時富證券有限公司	9
-area_馬來西亞	7
-recommender_招商證券(香港)有限公司 (相關往績)	1
-recommender_海通國際資本有限公司 (相關往績)	1
-recommender_國信證券(香港)融資有限公司 (相關往績)	11
-category_建築及裝修	7
-sales_康宏證券投資服務有限公司	4
-ipo_price	29
-sales_交銀國際證券有限公司	1
-sales_中國保盛證券有限公司	1
-category_服裝	3
-category_機械裝備及器材	1
-category_零售/貿易	12
-sales_長江證券經紀(香港)有限公司	4
-recommender_中國銀河國際證券(香港)有限公司 (相關往績)	9
+over_sub_rate	202
+one_lot_success_rate	117
+sponsor_丰盛融资有限公司	4
+total_value_mid	188
+sponsor_国信证券(香港)融资有限公司	13
+sponsor_英高财务顾问有限公司	9
+applied_lots_for_one_lot	313
+lot_size	124
+ipo_price_range_ratio	170
+sponsor_南华融资有限公司	10
+industry_农畜渔产品	12
+industry_基建	15
+sponsor_汇富融资有限公司	5
+industry_物业管理及代理	9
+industry_系统开发及信息科技顾问	5
+sponsor_信达国际融资有限公司	7
+industry_建筑及装修	10
+industry_医疗器械及服务	7
+sponsor_摩根士丹利亚洲有限公司	9
+industry_生物科技	6
+industry_电子商贸及互联网服务	5
+sponsor_大有融资有限公司	9
+sponsor_博思融资有限公司	6
+industry_电子元器件	12
+sponsor_中毅资本有限公司	8
+sponsor_富比资本有限公司	1
+sponsor_招商证券(香港)有限公司	4
+industry_餐饮	6
+sponsor_东兴证券(香港)有限公司	4
+industry_服装	3
+industry_建筑材料	5
+industry_其他金融	3
+industry_证券	4
+industry_机械装备及器材	4
+industry_其他支援服务	8
+sponsor_兴证国际融资有限公司	6
+sponsor_光银国际资本有限公司	7
+industry_有色金属	6
+industry_电子消费品	4
+sponsor_富强金融资本有限公司	10
+industry_出版传媒	5
+industry_汽车零售及维护维修	13
+sponsor_创升融资有限公司	8
+industry_家用电器	11
+industry_汽车及零部件	5
+sponsor_兴业金融融资有限公司	4
+sponsor_中泰国际融资有限公司	7
+sponsor_中信里昂证券资本市场有限公司	2
+sponsor_工银国际融资有限公司	1
+sponsor_中州国际融资有限公司	12
+industry_航运及港务	1
+sponsor_均富融资有限公司	7
+sponsor_广发融资(香港)有限公司	3
+sponsor_中国国际金融香港证券有限公司	5
+sponsor_国金证券(香港)有限公司	7
+industry_玩具	6
+sponsor_第一上海融资有限公司	3
+industry_广告	5
+industry_地产投资	12
+industry_化工产品	4
+sponsor_智富融资有限公司	7
+sponsor_民银资本有限公司	5
+industry_美容及个人护理	2
+sponsor_八方金融有限公司	5
+sponsor_安信融资(香港)有限公司	2
+sponsor_国泰君安融资有限公司	5
+sponsor_鼎佩证券有限公司	3
+industry_服饰配件及皮革	4
+sponsor_申万宏源融资(香港)有限公司	6
+sponsor_中银国际亚洲有限公司	3
+sponsor_J.P. Morgan Securities (Far East) Limited	2
+sponsor_天泰金融服务有限公司	1
+sponsor_力高企业融资有限公司	4
+sponsor_建银国际金融有限公司	4
+sponsor_德意志证券亚洲有限公司	7
+industry_投资及资产管理	1
+sponsor_浩德融资有限公司	1
+sponsor_招银国际融资有限公司	5
+industry_旅游及观光	5
+sponsor_德健融资有限公司	3
+sponsor_交银国际(亚洲)有限公司	1
+sponsor_麦格理资本股份有限公司	5
+industry_电气设备	1
+industry_仓储物流	1
+sponsor_香江资本有限公司	2
+sponsor_Credit Suisse (Hong Kong) Limited	3
+industry_工业用品	3
+sponsor_高盛(亚洲)有限责任公司	3
+sponsor_华泰金融控股(香港)有限公司	1
+sponsor_海通国际资本有限公司	5
+sponsor_华泰金融控股（香港）有限公司	2
+industry_印刷及包装	1
+industry_地产发展	2
+sponsor_中国光大融资有限公司	2
+industry_食品添加剂及调味料	1
+sponsor_HSBC Corporate Finance (Hong Kong) Limited	1
+industry_药品	2
+sponsor_红日资本有限公司	1
+sponsor_同人融资有限公司	1
+sponsor_建泉融资有限公司	1
+sponsor_法国巴黎证券(亚洲)有限公司	1
